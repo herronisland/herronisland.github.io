@@ -1,0 +1,14 @@
+run ftp
+"open herronisland.org"
+
+type "help" for help
+
+cd = remote computer directory
+
+lcd = local computer directory
+
+"get filename" downloads files from current remote directory 
+to current local directory
+
+
+"put filename"  uploads files from current local directory to current remote directory
