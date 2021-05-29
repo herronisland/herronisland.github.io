@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE>Herron Island Trivia Quiz</TITLE>
+<script type="text/javascript" language="JavaScript">
+<!--
+
+function checkAnswer() {
+	var answerArray = new Array( "With current gas prices, aren't you glad this answer is wrong? Try again...","Nope. It just seems like it when you're late for an appointment. Click again...","Correct! They back the diesel truck down the ramp and onto the ferry for fill-ups.");
+	var radioButtons = document.forms['quiz'].radioGroup;
+	
+	for ( var i = 0; i < radioButtons.length; i++ ) {
+		if ( radioButtons[i].checked ) {
+			document.forms['quiz'].answerTextArea.value = answerArray[ radioButtons[i].value ];
+		}
+	}
+}
+
+//-->
+</script>
+</HEAD>
+<BODY bgcolor="#365f91" TEXT="#ffffff">
+<form name="quiz">
+
+
+<table border=0 cellpadding=8 cellspacing=0>
+<tr>
+<td>
+<font size="2" face="verdana,arial,helvetica,sans-serif">
+
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<h4>2. What runs the engines on the Herron Island Ferry?</h4>
+
+<input type="radio" name="radioGroup" value="0" onClick="checkAnswer()">3200 gallons of gasoline<br>
+<input type="radio" name="radioGroup" value="1" onClick="checkAnswer()">3 squirrels on a treadmill<br>
+<input type="radio" name="radioGroup" value="2" onClick="checkAnswer()">1100 gallons of diesel<br>
+</font>
+</td>
+
+<td>
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<textarea name="answerTextArea" rows="5" cols="27" readonly wrap></textarea>
+
+</td>
+</tr>
+
+<tr><td align="right" colspan="2">
+
+<input type="button" value="Next >>" onClick="document.location='quiz03.html'">
+
+</td></tr>
+
+</table>
+
+</form>
+</BODY>
+</HTML>

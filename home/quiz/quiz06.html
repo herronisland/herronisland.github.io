@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<TITLE>Herron Island Trivia Quiz</TITLE>
+<script type="text/javascript" language="JavaScript">
+<!--
+
+function checkAnswer() {
+	var answerArray = new Array( "Close enough! Usually between 110 and 200 and it's no joke.", "Not even close. Try again...", "Wouldn't that be nice? Click again...");
+	var radioButtons = document.forms['quiz'].radioGroup;
+	
+	for ( var i = 0; i < radioButtons.length; i++ ) {
+		if ( radioButtons[i].checked ) {
+			document.forms['quiz'].answerTextArea.value = answerArray[ radioButtons[i].value ];
+		}
+	}
+}
+
+//-->
+</script>
+</HEAD>
+<BODY bgcolor="#365f91" TEXT="#ffffff">
+<form name="quiz">
+
+
+
+
+<table border=0 cellpadding=8 cellspacing=0>
+<tr>
+<td>
+<font size="2" face="verdana,arial,helvetica,sans-serif">
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<h4>6.  Of our 383 HMC members, how many usually vote?</h4>
+
+
+
+<input type="radio" name="radioGroup" value="0" onClick="checkAnswer()">124
+<br>
+<input type="radio" name="radioGroup" value="1" onClick="checkAnswer()">285<br>
+<input type="radio" name="radioGroup" value="2" onClick="checkAnswer()">312<br>
+</font>
+</td>
+
+<td>
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<textarea name="answerTextArea" rows="5" cols="27" readonly wrap></textarea>
+
+</td>
+</tr>
+
+<tr><td align="right" colspan="2">
+
+
+
+<input type="button" value="Next >>" onClick="document.location='quiz07.html'">
+
+</td></tr>
+
+</table>
+
+</form>
+</BODY>
+</HTML>

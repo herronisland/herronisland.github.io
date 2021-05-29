@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE>Herron Island Trivia Quiz</TITLE>
+<script type="text/javascript" language="JavaScript">
+<!--
+
+function checkAnswer() {
+	var answerArray = new Array( "No, but this would still be 30 years older than most dot.coms. Click again...","Close enough! We were established on April 30th, 1958.","Do we look that old? Really? Are you sure? Try again...");
+	var radioButtons = document.forms['quiz'].radioGroup;
+	
+	for ( var i = 0; i < radioButtons.length; i++ ) {
+		if ( radioButtons[i].checked ) {
+			document.forms['quiz'].answerTextArea.value = answerArray[ radioButtons[i].value ];
+		}
+	}
+}
+
+//-->
+</script>
+</HEAD>
+<BODY bgcolor="#365f91" TEXT="#ffffff">
+<form name="quiz">
+
+
+
+<table border=0 cellpadding=8 cellspacing=0>
+<tr>
+<td>
+<font size="2" face="verdana,arial,helvetica,sans-serif">
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<h4>4. How old is HMC Management?</h4>
+
+
+<input type="radio" name="radioGroup" value="0" onClick="checkAnswer()">32 years old and still looking good<br>
+<input type="radio" name="radioGroup" value="1" onClick="checkAnswer()">58 years old and aging gracefully<br>
+<input type="radio" name="radioGroup" value="2" onClick="checkAnswer()">75 years old and starting to have joint pain<br>
+
+</font>
+</td>
+
+<td>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+<textarea name="answerTextArea" rows="5" cols="27" readonly wrap></textarea>
+
+</td>
+</tr>
+
+<tr><td align="right" colspan="2">
+
+<input type="button" value="Next >>" onClick="document.location='quiz05.html'">
+
+</td></tr>
+
+</table>
+
+</form>
+</BODY>
+</HTML>

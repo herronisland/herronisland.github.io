@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<TITLE>Herron Island Trivia Quiz</TITLE>
+<script type="text/javascript" language="JavaScript">
+<!--
+
+function checkAnswer() {
+	var answerArray = new Array( "No - it was the Tacoma News Tribune who called us a 'little smudge of land' in Case Inlet. Try again...","Correct! We were discovered by Lt. Puget on a Wednesday - England time - in 1792.","No, but isn't that a cool name? Click again...");
+	var radioButtons = document.forms['quiz'].radioGroup;
+	
+	for ( var i = 0; i < radioButtons.length; i++ ) {
+		if ( radioButtons[i].checked ) {
+			document.forms['quiz'].answerTextArea.value = answerArray[ radioButtons[i].value ];
+		}
+	}
+}
+
+//-->
+</script>
+</HEAD>
+<BODY bgcolor="#365f91" TEXT="#ffffff">
+<form name="quiz">
+
+
+
+<table border=0 cellpadding=8 cellspacing=0>
+<tr>
+<td>
+<font size="2" face="verdana,arial,helvetica,sans-serif">
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<h4>3. What was the original name for Herron Island?
+</h4>
+
+
+<input type="radio" name="radioGroup" value="0" onClick="checkAnswer()">Smudge of Land Island<br>
+<input type="radio" name="radioGroup" value="1" onClick="checkAnswer()">Wednesday Island<br>
+<input type="radio" name="radioGroup" value="2" onClick="checkAnswer()">Rebel Rock<br>
+</font>
+</td>
+
+<td>
+
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+<BR CLEAR.ALL>
+
+
+<textarea name="answerTextArea" rows="5" cols="27" readonly wrap></textarea>
+
+</td>
+</tr>
+
+<tr><td align="right" colspan="2">
+
+<input type="button" value="Next >>" onClick="document.location='quiz04.html'">
+
+</td></tr>
+
+</table>
+
+</form>
+</BODY>
+</HTML>
