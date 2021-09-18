@@ -49,26 +49,21 @@ Reason for `...x.pdf`: FTP server is acting up and not allowing any file to over
 
 `cp 7-22-21\ calendar.pdf ~/HerronIsland/home/calendar/calendarx.pdf`
 
-Annual Meeting Minutes
-----------------------
-
-`cp 2021\ Annual\ Metting\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_ann21.pdf`
-
-`vi index_mem_min.html`
 
 Beachcomber Update
 ---------------------
 
-* menu.html
-* 
-
+`bc_%M%Y.pdf`
+ 
+`vi home/home.html home/members/login.html home/members/archive/index_bc.html
 
 Monthly Meeting Minutes
 ----------------------
 
 `cp June\ 12\,\ 2021\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_jun21.pdf`
 
-vi index_min.html
+vi home/members/archive/index_min.html home/members/login.html home/home.html
+
 
 Personnel Changes
 -----------------
@@ -77,3 +72,9 @@ vi home/board/board.html
 vi home/members/contacts.html
 
 
+Annual Meeting Minutes
+----------------------
+
+`cp 2021\ Annual\ Metting\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_ann21.pdf`
+
+`vi index_mem_min.html`
