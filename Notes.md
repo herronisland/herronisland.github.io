@@ -49,6 +49,25 @@ Reason for `...x.pdf`: FTP server is acting up and not allowing any file to over
 
 `cp 7-22-21\ calendar.pdf ~/HerronIsland/home/calendar/calendarx.pdf`
 
+Manager Report (Monthly)
+--------------
+
+* cp ... home/members/archives/manager/manager_%M%Y.pdf
+* vi `home/members/archives/index_mgr.html`
+* vi `home/home.html`
+
+Audit Report
+------------
+
+* cp ... home/members/archives/audits/audit_%Y.pdf
+* vi home/members/index_aud.html
+
+Board Meeting Agenda
+--------------------
+
+cp ... /home/board_agenda_%Y%M%d.pdf
+
+
 
 Beachcomber Update
 ---------------------
