@@ -56,18 +56,25 @@ Manager Report (Monthly)
 * vi `home/members/archives/index_mgr.html`
 * vi `home/home.html`
 
+Board Meeting Agenda
+--------------------
+
+* cp ... /home/board_agenda_%Y%M%d.pdf
+* `vi home/home.html`
+* 
+
+Monthly Meeting Minutes
+----------------------
+
+`cp June\ 12\,\ 2021\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_jun21.pdf`
+
+vi home/members/archive/index_min.html home/members/login.html home/home.html
+
 Audit Report
 ------------
 
 * cp ... home/members/archives/audits/audit_%Y.pdf
 * vi home/members/index_aud.html
-
-Board Meeting Agenda
---------------------
-
-cp ... /home/board_agenda_%Y%M%d.pdf
-
-
 
 Beachcomber Update
 ---------------------
@@ -76,12 +83,6 @@ Beachcomber Update
  
 `vi home/home.html home/members/login.html home/members/archive/index_bc.html
 
-Monthly Meeting Minutes
-----------------------
-
-`cp June\ 12\,\ 2021\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_jun21.pdf`
-
-vi home/members/archive/index_min.html home/members/login.html home/home.html
 
 
 Personnel Changes
