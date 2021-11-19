@@ -61,7 +61,6 @@ Board Meeting Agenda
 
 * cp ... /home/board_agenda_%Y%M%d.pdf
 * `vi home/home.html`
-* 
 
 Monthly Meeting Minutes
 ----------------------
@@ -83,6 +82,10 @@ Beachcomber Update
  
 `vi home/home.html home/members/login.html home/members/archive/index_bc.html
 
+Ferry Schedule
+--------------
+
+Holy hell...
 
 
 Personnel Changes
