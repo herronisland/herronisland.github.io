@@ -80,7 +80,7 @@ Beachcomber Update
 
 `bc_%M%Y.pdf`
  
-`vi home/home.html home/members/login.html home/members/archive/index_bc.html
+vi home/home.html menu.html home/members/login.html home/members/archive/index_bc.html
 
 Ferry Schedule
 --------------
