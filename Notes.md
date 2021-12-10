@@ -53,8 +53,7 @@ Manager Report (Monthly)
 --------------
 
 * cp ... home/members/archives/manager/manager_%M%Y.pdf
-* vi `home/members/archives/index_mgr.html`
-* vi `home/home.html`
+* vi home/members/archives/index_mgr.html home/home.html home/members/login.html
 
 Board Meeting Agenda
 --------------------
@@ -101,3 +100,17 @@ Annual Meeting Minutes
 `cp 2021\ Annual\ Metting\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_ann21.pdf`
 
 `vi index_mem_min.html`
+
+Boosters Updates
+-------------------
+
+Root directory home/boosters/...
+
+**Minutes**
+
+cp *.pdf ~/HerronIsland/home/boosters/old_boosters/
+
+vi home/boosters/old_boosters/boosters_minutes.html
+
+
+
