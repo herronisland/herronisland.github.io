@@ -93,6 +93,12 @@ Personnel Changes
 vi home/board/board.html
 vi home/members/contacts.html
 
+Ferry Access Policy
+-------------------
+
+mv ~/Downloads/Ferry\ access\ policy_compressed.pdf home/members/ferryaccess.pdf
+
+vi home/members/login.html
 
 Annual Meeting Minutes
 ----------------------
