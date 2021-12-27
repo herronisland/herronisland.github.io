@@ -77,7 +77,7 @@ Audit Report
 Beachcomber Update
 ---------------------
 
-`bc_%M%Y.pdf`
+cp ... `home/members/archive/beachcombers/bc_%M%Y.pdf`
  
 vi home/home.html menu.html home/members/login.html home/members/archive/index_bc.html
 
@@ -117,6 +117,11 @@ Root directory home/boosters/...
 cp *.pdf ~/HerronIsland/home/boosters/old_boosters/
 
 vi home/boosters/old_boosters/boosters_minutes.html
+
+Emergency Prep Committee
+---------------------
+
+home/committees/ep.html + some local documents
 
 
 
