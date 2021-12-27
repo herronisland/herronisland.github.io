@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>Calendar
+	</title>
+	
+	
+<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">	
+<style type='text/css'>
+td{font-family:Arial; color:#ffffff; font-size:12pt;}
+</style>	
+	
+</head>
+<body bgcolor="#365f91" text="#ffffff" link="#00ff00" vlink="#00ff00" alink="#00ff66">
+
+<br>
+<h2 align="center">Calendar of Community Events</h2>
+<br>
+
+<table align="center" border="1" width="80%" cellpadding="10">
+<tr>
+<td align="center" width="6%">
+<b>Date</b>
+</td>
+<td align="center" width="5%">
+<b>Time</b>
+</td>
+<td align="center" width="13%">
+<b>Name/Description of Event</b>
+</td>
+<td align="center" width="9%">
+<b>Location</b>
+</td>
+<td align="center" width="13%">
+<b>Contact</b>
+</td>
+
+</tr>
+
+<tr>
+<td align="right">
+April 8, 2012&nbsp;&nbsp;&nbsp;<br><br>
+April 14, 2012&nbsp;&nbsp;&nbsp;<br><br>
+April 14, 2012&nbsp;&nbsp;&nbsp;<br><br>
+April 14, 2012&nbsp;&nbsp;&nbsp;<br><br>
+May 12, 2012&nbsp;&nbsp;&nbsp;
+</td>
+<td align="right">
+7:00 AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+10:00 AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+12:30 PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+9:00 AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+10:00 AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Easter Sunrise Service<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board Meeting<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emergency Preparedness Meeting<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parks Appreciation Day and Cleanup<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board Meeting
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;North Beach<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Community Center<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Community Center<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;North Beach<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Community Center
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:rondisue@centurytel.net">Dallas & Rondi Amidon</a><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:office@herronisland.org">Office</a><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:office@herronisland.org">Office</a><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hmcparks@herronisland.org">Terrill Chilson or Tracy Anspach</a><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:office@herronisland.org">Office</a>
+</td>
+</tr>
+
+</table>
+
+<table width="80%" align="center" border="0"><tr><td align="right">
+&nbsp;<br>Note:&nbsp; See <a href="http://herronisland.org/home/members/0312/bc_mar12.pdf">Beachcomber</a> for flyers and other details of events.
+</td></tr></table>
+
+
+
+<br><br><br>
+
+</body>
+</html>
