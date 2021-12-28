@@ -123,5 +123,12 @@ Emergency Prep Committee
 
 home/committees/ep.html + some local documents
 
+Committee Chart
+---------------
+
+vi home/committees/chart.html
+
+There are a lot of sub files linked to from the chart page, each one needs to get updated depending on which committees are active.
+
 
 
