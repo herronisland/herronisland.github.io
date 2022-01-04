@@ -22,6 +22,7 @@ TODO
 * [ ] GH Organization
     * [ ] Private repo
 * [ ] Cull  `board/members/contacts.html`?
+* [ ] Create new page for all committees, and replace the standalone committee web pages; eg: rules.html...
 
 HMC
 ---
@@ -128,7 +129,8 @@ Committee Chart
 
 vi home/committees/chart.html
 
-There are a lot of sub files linked to from the chart page, each one needs to get updated depending on which committees are active.
+Some nice CSS edits for Tables in the chart.html page.
 
+There are a lot of sub files linked to from the chart page, each one needs to get updated depending on which committees are active. Some linking to the board/board.html page, which could be expanded in the future.
 
 
