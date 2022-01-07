@@ -133,4 +133,7 @@ Some nice CSS edits for Tables in the chart.html page.
 
 There are a lot of sub files linked to from the chart page, each one needs to get updated depending on which committees are active. Some linking to the board/board.html page, which could be expanded in the future.
 
+### Committees 
+
+`index.html` will be the new aggregation of all the Committee information with `#` links.
 
