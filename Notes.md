@@ -19,8 +19,8 @@ Ferry App
 TODO
 ----
 
-* [ ] GH Organization
-    * [ ] Private repo
+* [x] GH Organization
+    * [x] Private repo
 * [ ] Cull  `board/members/contacts.html`?
 * [ ] Create new page for all committees, and replace the standalone committee web pages; eg: rules.html...
 
