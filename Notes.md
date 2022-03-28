@@ -67,7 +67,7 @@ Monthly Meeting Minutes
 
 `cp June\ 12\,\ 2021\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_jun21.pdf`
 
-vi home/members/archive/index_min.html home/members/login.html home/home.html
+vi home/members/archives/index_min.html home/members/login.html home/home.html
 
 Audit Report
 ------------
@@ -80,7 +80,7 @@ Beachcomber Update
 
 cp ... `home/members/archive/beachcombers/bc_%M%Y.pdf`
  
-vi home/home.html menu.html home/members/login.html home/members/archive/index_bc.html
+vi home/home.html menu.html home/members/login.html home/members/archives/index_bc.html
 
 Ferry Schedule
 --------------
