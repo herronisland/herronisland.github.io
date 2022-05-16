@@ -87,6 +87,11 @@ Ferry Schedule
 
 Holy hell...
 
+Ferry Committee Meeting Minutes
+-------------------------------
+
+mv ... `home/committees/min_ferry_%Y%m.pdf`
+vi home/committees/index.html
 
 Personnel Changes
 -----------------
