@@ -93,6 +93,12 @@ Ferry Committee Meeting Minutes
 mv ... `home/committees/min_ferry_%Y%m.pdf`
 vi home/committees/index.html
 
+Road Committee Meeting Minutes
+-------------------------------
+
+mv ... `home/committees/min_roads_%Y%m.pdf`
+vi home/committees/index.html
+
 Personnel Changes
 -----------------
 
