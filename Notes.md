@@ -119,6 +119,12 @@ Annual Meeting Minutes
 
 `vi index_mem_min.html`
 
+Annual Manager Report
+---------------------
+
+`cp ... ~/HerronIsland/home/members/archives/manager/manager_ann%Y.pdf` 
+`vi home/members/archives/index_mgr.html home/home.html home/members/login.html`
+
 Boosters Updates
 -------------------
 
