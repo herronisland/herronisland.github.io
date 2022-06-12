@@ -1,0 +1,80 @@
+.hmc_font_heading{
+    font-size: 30;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: auto;
+}
+
+.hmc_font{
+    color: "#ffffff";
+    font-size: 18;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 1px 1px;
+  width: 12em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: gold;
+}
+
+.hmchead {
+    width: 48em;
+    height: 12em;
+    margin: auto;
+    padding: 5px;
+}
+
+.infotable{
+    width: 15em;
+    padding: 2em;
+    float: left;
+}
+
+.center{
+    width: 40em;
+    margin: auto;
+    padding: 10px;
+}
+
+.center_image {
+    display: flex;
+}
+
+.menu {
+    width: 10em;
+    float: left;
+}
+
+.menuitem {
+    width: 12em;
+    float: left;
+}
+
+
+
+
+a:hover {
+    color: #ffff00;
+}
