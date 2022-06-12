@@ -34,21 +34,55 @@
   border: 2px solid #555555;
 }
 
+.button_wsdot{
+  background-color: #007b5f;
+  color: whitesmoke;
+  border: 2px solid black;
+  height: 5em;
+}
+
+.button_odot {
+  background-color: #6b923d;
+  color: whitesmoke;
+  border: 2px solid black;
+  height: 5em;
+}
+
+.button_generic {
+  background-color: #12f0f2;
+  color: darkblue;
+  border: 2px solid black;
+  height: 5em;
+}
+
 .button5:hover {
   background-color: #555555;
   color: gold;
 }
 
 .hmchead {
-    width: 48em;
-    height: 12em;
+    width: 52em;
     margin: auto;
     padding: 5px;
 }
 
+.widepod {
+    width: 48em;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pod {
+    
+}
+
 .infotable{
-    width: 15em;
-    padding: 2em;
+    flex-wrap: wrap;
+    width: 17em;
+    padding: 1em;
     float: left;
 }
 
@@ -60,20 +94,22 @@
 
 .center_image {
     display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: relative;
 }
 
 .menu {
     width: 10em;
     float: left;
+    z-index: 1;
+    position: fixed;
 }
 
 .menuitem {
     width: 12em;
     float: left;
 }
-
-
-
 
 a:hover {
     color: #ffff00;
