@@ -81,8 +81,8 @@
 
 .infotable{
     flex-wrap: wrap;
-    width: 17em;
-    padding: 1em;
+    width: 16em;
+    padding: 2px;
     float: left;
 }
 
@@ -113,4 +113,24 @@
 
 a:hover {
     color: #ffff00;
+}
+
+.himph {
+  width: 200px;
+  height: 150px;
+}
+
+#plate {
+  display: block;
+  background-color: #f6d006;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+  
+#number {
+  text-align: center;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
