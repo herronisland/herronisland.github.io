@@ -34,7 +34,7 @@ Quickbooks database of all the users
 Main Page
 ---------
 
-home/home.html
+index.html
 
 Documents Page
 --------------
@@ -54,20 +54,20 @@ Manager Report (Monthly)
 --------------
 
 * cp ... home/members/archives/manager/manager_%M%Y.pdf
-* vi home/members/archives/index_mgr.html home/home.html home/members/login.html
+* vi home/members/archives/index_mgr.html index.html home/members/login.html
 
 Board Meeting Agenda
 --------------------
 
 * cp ... /home/board_agenda_%Y%M%d.pdf
-* `vi home/home.html`
+* `vi index.html`
 
 Monthly Meeting Minutes
 ----------------------
 
 `cp June\ 12\,\ 2021\ Minutes.pdf ~/HerronIsland/home/members/archives/minutes/min_jun21.pdf`
 
-vi home/members/archives/index_min.html home/members/login.html home/home.html
+vi home/members/archives/index_min.html home/members/login.html index.html
 
 Audit Report
 ------------
@@ -80,7 +80,7 @@ Beachcomber Update
 
 cp ... `home/members/archive/beachcombers/bc_%M%Y.pdf`
  
-vi home/home.html menu.html home/members/login.html home/members/archives/index_bc.html
+vi index.html menu.html home/members/login.html home/members/archives/index_bc.html
 
 Ferry Schedule
 --------------
@@ -123,7 +123,7 @@ Annual Manager Report
 ---------------------
 
 `cp ... ~/HerronIsland/home/members/archives/manager/manager_ann%Y.pdf` 
-`vi home/members/archives/index_mgr.html home/home.html home/members/login.html`
+`vi home/members/archives/index_mgr.html index.html home/members/login.html`
 
 Boosters Updates
 -------------------
