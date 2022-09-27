@@ -1,7 +1,11 @@
+HMC Web Archive
+---------------
 
+Documentation and notes on dealing with the HMC Website, and other tech issues.
 
-Ferry App
-----------
+### Ferry App
+
+Ideas for a improving ferry access.
 
 * Three Google Sheets to manage the Ferry lists
     * Member list
@@ -16,6 +20,10 @@ Ferry App
     * Owner must prove that they authorized the Guests to enter the island, equivalent to Owner's signature
         * QR Code:  Scan could provide Authentication & Authorization for specific License Plate
 
+Quickbooks database of all the users
+    * SSO for logging into HIO?
+        * Not so fast, would require all members to be within a google org for their SSO to work.
+
 TODO
 ----
 
@@ -24,12 +32,25 @@ TODO
 * [ ] Cull  `board/members/contacts.html`?
 * [ ] Create new page for all committees, and replace the standalone committee web pages; eg: rules.html...
 
-HMC
----
+# HerronIsland.org
 
-Quickbooks database of all the users
-    * SSO for logging into HIO?
-        * Not so fast, would require all members to be within a google org for their SSO to work.
+### Development 
+
+Running a pyhton3 web server will effectively simulate the same webserver as the live [website](herronisland.org).
+
+Python3 makes it easy as opening a terminal, moving cursor to HerronIsland directory, and running: `python3 -m http.server`.
+
+```
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+```
+
+You can then access the HMC webpage by opening a [browser to the localhost port](http://localhost:8000)
+
+No additional python libraries need to be installed, only the python3 programming language.
+
+## Carol's TODOs
+
+* [ ] Katri Island Manager updates
 
 Main Page
 ---------
@@ -78,9 +99,9 @@ Audit Report
 Beachcomber Update
 ---------------------
 
-cp ... `home/members/archive/beachcombers/bc_%M%Y.pdf`
+cp ... `/home/members/archive/beachcombers/bc_%M%Y.pdf`
  
-vi index.html menu.html home/members/login.html home/members/archives/index_bc.html
+`vi index.html menu.html home/members/login.html home/members/archives/index_bc.html`
 
 Ferry Schedule
 --------------
@@ -91,12 +112,14 @@ Ferry Committee Meeting Minutes
 -------------------------------
 
 mv ... `home/committees/min_ferry_%Y%m.pdf`
+
 vi home/committees/index.html
 
 Road Committee Meeting Minutes
 -------------------------------
 
 mv ... `home/committees/min_roads_%Y%m.pdf`
+
 vi home/committees/index.html
 
 Personnel Changes
