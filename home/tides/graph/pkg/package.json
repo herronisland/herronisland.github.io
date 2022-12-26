@@ -1,0 +1,15 @@
+{
+  "name": "herron-island",
+  "collaborators": [
+    "Josh Roppo <joshroppo@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "herron_island_bg.wasm",
+    "herron_island.js",
+    "herron_island.d.ts"
+  ],
+  "module": "herron_island.js",
+  "types": "herron_island.d.ts",
+  "sideEffects": false
+}

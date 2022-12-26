@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Herron Island Tides</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <noscript
+      >This page contains webassembly and javascript content, please enable
+      javascript in your browser.</noscript
+    >
+
+    <script src="./bootstrap.js"></script>
+    <main>
+      <canvas id="canvas" width="500" height="250"></canvas>
+      <div id="control">
+        <label for="plot-type">Tide Location: </label>
+        <select id="plot-type">
+          <option value="9446583">NOAA: McMicken Is. Station</option>
+          <option value="9446671">NOAA: Devils Head</option>
+          <option value="9446628">NOAA: Shelton</option>
+          <option value="9446369">NOAA: Gig Harbor</option>
+          <option value="9445478">NOAA: Union</option>
+          <option value="9447130">NOAA: Seattle(Elliot Bay)</option>
+          <option value="9444900">NOAA: Port Townsend</option>
+          <option value="9449771">NOAA: Rosario, Orcas Island</option>
+          <option value="9443090">NOAA: Neah Bay</option>
+        </select>
+      </div>
+      <div display="block" width="500">
+        <div id="status" display="block" float="left"  width=200>Loading WebAssembly...</div>
+        <!--div id="coord" display="block" float="left"  width=200>Loading WebAssembly...</div-->
+      </div>
+    </main>
+  </body>
+</html>
