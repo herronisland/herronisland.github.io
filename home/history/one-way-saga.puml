@@ -1,0 +1,79 @@
+@startuml persons
+participant kr [
+  =Katri Rokhonen
+  ---
+  ""HMC Manager""
+]
+participant jp [
+  =Janet Podell
+  ---
+  ""HMC Pres.""
+]
+participant dh [
+  =Dave Hancock
+  ---
+  ""HMC Vice-Pres.""
+]
+participant dm [
+  =Dan Marten
+  ---
+  ""Roads Committee""
+] 
+participant sa [ 
+  =Sam Argo
+  ---
+  ""Silver Senior Construction""
+]
+  
+== August 28th ==
+
+== August 30th ==
+note across: HMC Roads Committee(C): Task itemization for road projects before winter.\n  Task 1: One way road\n  Task 2: Madrona Lane Drainage
+
+== August 31st == 
+
+note across: Gig Harbor Excavation(B)\nBid delivered to HMC\nTask 1: $14,753\nTask 2: $42,237
+
+== September 4-5th == 
+
+jp -> dh: Janet email to Dave, copy HMC Board and Manager
+note over kr, dm: (H) Mountain View Dirt contact Justin found.\nPreviously worked on HI, knows the roads.
+dh -> jp: 
+note over kr, dm: Justin provides context:\nvibrating rollers are idealto compact down 12"\navailable in November to work.
+
+== September 11th ==
+
+dm <- dh: (G) Dave email to Dan
+note over dh, dm: Discussion of One-Way problems around Eccles property. Noted Sam Argo's familiarity with soil and gave explanation for slope degredation and culvert impass.
+dm -> dh: (G) Dan email to Dave
+note over dh, dm: Consideration of Justin Drotz(Mountain View Dirt) is unavailble realistically til spring.\nExpressed concern to not get any improvements done on one-way above Eccles property before rainy season.
+
+== September 14th ==
+
+dh -> dm: (G) Dave email to Dan
+note over dh, dm: Dave states he spoke to Sam(Argo)\n"I feel he would be the contractor we need to get the Eccles hil in shape for the winter"\nDiscussed stockpiling materials with the budget for future improvements.\n"Sam confirmed his estimate to fix both sections to be in the range of $5-$6k"
+
+note over dh, dm: "I would ask the Board and manager to select Same to ready the road and prepare us billing\n we could use in light of the budget sunsetting the roads' funds in two weeks.\nThanks, Dave"
+
+== September 26th ==
+
+dm -> dh: (G) Dan email to Dave\nResponding to Dave's suggestion to choose Sam.
+note over dh, dm: "Justin Drotz does have the benefit of having a roller and I consider that to be very important\nSam does not have that capability and I consider that to be a significant factor."\nAcknowledges the time constraints of November and rain season.
+
+dh -> sa: (G) Dan email to Dave, HMC Board and Manager added, CC Sam Argo as well.
+note over kr, sa: Dave acknowledges Dan's concerns, and that Sam Argo does not have equivalent equipment to Justin Drotz.\nSuggests Justin Drotz apply asphalt in November, after the "initial grading that we expect Sam will be doing this week..."
+
+kr -> dh: (G) Katri email to Dave, copying HMC Board and Dan
+note over kr, dm: "There is currently no bid for review, or signed contract with Sam Argo at the HMC office"\nStates there are no written estimates for materials needed from contractors. Notifies board that statements of work from contractors is standard practice.
+note over kr, dm: "As we are nearing the end of the fiscal year, if these are available, reviewed and approved by the board,\n please forward them to the HMC office to indicate the direction of the board."
+
+jp --> kr: [(G) Janet email to Katri, copying HMC Board and Dan 
+note over kr, dm: (G) "There is a writen commitment from Sam (Argo). Dave(Hancock) should have it."\n"He had some problems with his email."
+kr -> jp
+
+
+
+== October 20th ==
+
+
+@enduml
